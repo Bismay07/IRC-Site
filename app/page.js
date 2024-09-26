@@ -12,7 +12,7 @@ import Autoplay from "embla-carousel-autoplay";
 export default function Home() {
   return (
     <main className="flex-row">
-      <div className="flex h-[70vh] z-2">
+      <div className="flex h-[70vh] ">
         <Carousel
           plugins={[
             Autoplay({
@@ -43,8 +43,9 @@ export default function Home() {
         </Carousel>
       </div>
       <div className="z-3">
-        <h1 className="underline decoration-yellow-300 z-3 text-9xl text-green-500 antialiased transition-all duration-300 text-center">Keep <span className="underline decoration-green-300">Robotizing</span></h1>
+        <h1 className="underline decoration-yellow-300 z-3 text-9xl text-green-500 antialiased transition-all duration-300 text-center">Keep <span className="underline decoration-orange-300">Robotizing</span></h1>
       </div>
+
     </main>
   );
 }

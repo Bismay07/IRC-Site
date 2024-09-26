@@ -26,7 +26,7 @@ const LRBtn = () => {
         <div>
             <Sheet>
                 <SheetTrigger asChild>
-                    <Button variant="outline" className="dark:text-white text-black">
+                    <Button variant="outline" className="text-green-300">
                         Login/Register
                     </Button>
                 </SheetTrigger>

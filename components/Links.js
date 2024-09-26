@@ -22,28 +22,19 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import LRBtn from "./login-register";
+import { links } from "@/constants";
 
 const Links = () => {
     return (
         <div className="flex items-center gap-2">
-            <Link
-                href="/about"
-                className="hover:scale-x-110 hover:font-semibold transition duration-300 ease-in"
-            >
-                About
-            </Link>
-            <Link
-                href="/blog"
-                className="hover:scale-x-110 hover:font-semibold transition duration-300 ease-in"
-            >
-                Events
-            </Link>
-            <Link
-                href="/blog"
-                className="hover:scale-x-110 hover:font-semibold transition duration-300 ease-in"
-            >
-                Shop
-            </Link>
+            {links.map((link, index) => {
+                return <Link
+                    href={link.url}
+                    className="hover:scale-x-110 hover:font-semibold transition duration-300 ease-in text-green-300"
+                >
+                    {link.name}
+                </Link>
+            })}
 
             <div className="flex space-x-2">
                 <LRBtn />
