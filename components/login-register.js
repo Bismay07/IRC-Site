@@ -26,13 +26,13 @@ const LRBtn = () => {
         <div>
             <Sheet>
                 <SheetTrigger asChild>
-                    <Button variant="outline" className="text-green-300">
+                    <Button variant="outline" className="dark:text-white text-black">
                         Login/Register
                     </Button>
                 </SheetTrigger>
                 <SheetContent className="h-[80%]" side="bottom">
                     <SheetHeader>
-                        <SheetTitle className="mx-auto">Login or Register</SheetTitle>
+                        <SheetTitle className="mx-auto text-white">Login or Register</SheetTitle>
                         <SheetDescription className="mt-10 mx-auto">
                             <Tabs defaultValue="login" className="w-[40vw]">
                                 <TabsList className="grid w-full grid-cols-2">

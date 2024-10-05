@@ -1,19 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --background: #ffffff; 
   --foreground: #171717;
 }
- 
+  */
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-} 
+}
 
 @layer utilities {
   .text-balance {
