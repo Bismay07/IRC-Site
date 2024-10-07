@@ -1,11 +1,5 @@
 import React from 'react'
-import {
-  BellIcon,
-  CalendarIcon,
-  FileTextIcon,
-  GlobeIcon,
-  InputIcon,
-} from "@radix-ui/react-icons";
+
 import { FaTruckMonster } from "react-icons/fa6";
 import { PiCarSimpleLight } from "react-icons/pi";
 import { GiF1Car, GiMechanicalArm } from "react-icons/gi";

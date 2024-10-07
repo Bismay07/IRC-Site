@@ -18,8 +18,8 @@ const Landing = () => {
     offset: ["0 1", "1.33 1"]
   });
   return (
-    <div className="flex flex-col">
-      <div className="relative w-full overflow-hidden flex justify-center items-center px-32 py-28 min-h-screen">
+    <div className="flex flex-col justify-center">
+      <div className="relative w-full overflow-hidden flex justify-center items-center mx-auto py-28 min-h-screen">
       <Image
         src={circle}
         height={1500}
@@ -39,7 +39,7 @@ const Landing = () => {
           scale: scrollYProgress,
           opacity: scrollYProgress
         }}
-        className="h-20 flex justify-center"
+        className="h-20 flex justify-center mb-36"
       >
         <HyperText
           className="text-4xl font-bold text-black dark:text-cyan-200 flex justify-center"
