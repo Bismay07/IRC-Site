@@ -4,6 +4,7 @@ import BentoGrid2 from "@/components/bento-grid";
 import Carousel2 from "@/components/carousel";
 import Landing from "@/components/Landing";
 import { RippleDemo } from "@/components/RippleDemo";
+import { TracingBeam } from "@/components/ui/tracing-beam";
 
 export default function Home() {
   return (

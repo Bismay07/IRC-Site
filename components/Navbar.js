@@ -17,15 +17,14 @@ import Image from "next/image";
 import logo from "./IRC_Logo.png";
 import Links from "./Links";
 import LRBtn from "./login-register";
+import IRCLogo from "@/constants/Logo";
 
 const Navbar = () => {
     return (
-        <nav className="w-full fixed border-b backdrop-blur z-40">
+        <nav className="w-full border-b backdrop-blur z-40">
             <div className="container mx-auto p-4 flex justify-between items-center">
                 <div className="text-white text-2xl font-bold">
-                    <Link href="/" className="text-slate-400">
-                        <Image src={logo} width={70} height={70} />
-                    </Link>
+                    <IRCLogo height={70} width={70} />
                 </div>
                 <div className="md:hidden flex items-center">
                     <Sheet>

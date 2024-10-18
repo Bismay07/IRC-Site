@@ -19,7 +19,7 @@ const Landing = () => {
   });
   return (
     <div className="flex flex-col justify-center">
-      <div className="relative w-full overflow-hidden flex justify-center items-center mx-auto py-28 min-h-screen">
+      <div className="relative w-full overflow-hidden flex justify-center items-center mx-auto py-20">
       <Image
         src={circle}
         height={1500}
